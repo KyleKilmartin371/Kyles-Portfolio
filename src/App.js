@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Portfolio></Portfolio>
       <Contact></Contact>
       </main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
