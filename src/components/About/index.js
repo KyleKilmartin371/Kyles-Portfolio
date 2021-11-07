@@ -5,7 +5,7 @@ import {Container, Row, Col } from 'react-bootstrap';
 
 function About() {
   return (
-    <Container>
+    <Container id='about'>
       <Row>
           <Col xs={12} md={6}>
             <h1 id="about">About Kyle Kilmartin</h1>
