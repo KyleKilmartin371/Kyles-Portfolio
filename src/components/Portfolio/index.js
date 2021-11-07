@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Portfolio() {
   return (
-    <Container >
+    <Container id="portfolio" >
       <Row>
         <Col>
           <h3>Check out some of my work!</h3>
