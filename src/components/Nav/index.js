@@ -12,13 +12,19 @@ function Nav() {
         </Col>
 
         <Col xs={12} md={2}>
+            <h2>
           <a href="#about">About me</a>
+          </h2>
         </Col>
         <Col xs={12} md={2}>
+            <h2>
           <a href="#portfolio">Portfolio</a>
+          </h2>
         </Col>
         <Col xs={12} md={2}>
+            <h2>
           <a href="#contact">Contact</a>
+          </h2>
         </Col>
       </Row>
     </Container>
