@@ -62,7 +62,7 @@ a:hover {
   background-color: var(--second-color);
 }
 
-.about h1, p {
+.about h1, h4, p, ul, li {
   color: var(--third-color);
 }
 
