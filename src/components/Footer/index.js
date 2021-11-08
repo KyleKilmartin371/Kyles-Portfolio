@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Footer(){
     return(
-        <Container>
+        <Container className='footer'>
             <Row>
                 <Col className="col-md-6 offset-md-3">
         <h2>❤️ Made with love by Kyle Kilmartin. &copy; 2021</h2>
