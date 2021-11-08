@@ -11,13 +11,13 @@ function Portfolio() {
       </Row>
        {/* App 1 */}
       <Row className="portfolio-list">
-        <Col xs={12} md={12}>
+        <Col xs={12} md={12} className="portfolio-1">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://morning-woodland-90591.herokuapp.com/"
                   id="app-1"
-                  className="portfolio-item portfolio-1"
+                  className="portfolio-item"
         >
             <h4>
                 Pet Beauty
@@ -30,13 +30,13 @@ function Portfolio() {
 
       <Row className="portfolio-list">
           {/* App 2 */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6}className="portfolio-2">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://kylekilmartin371.github.io/group-project/"
                   id="app-2"
-                  className="portfolio-items portfolio-2"
+                  className="portfolio-items"
         >
             <h4>
                 Walk in
@@ -46,13 +46,13 @@ function Portfolio() {
         </a>
         </Col>
         {/* App 3 */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="portfolio-3">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/KyleKilmartin371/budget-tracker"
                   id="app-3"
-                  className="portfolio-items portfolio-3"
+                  className="portfolio-items"
         >
             <h4>
                 Budget
@@ -62,13 +62,13 @@ function Portfolio() {
         </a>
         </Col>
         {/* App 4 */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="portfolio-4">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/KyleKilmartin371/the_social_net"
                   id="app-4"
-                  className="portfolio-items portfolio-4"
+                  className="portfolio-items"
         >
             <h4>
                 The Social 
@@ -78,13 +78,13 @@ function Portfolio() {
         </a>
         </Col>
         {/* App 5 */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="portfolio-5">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/KyleKilmartin371/employee-tracker"
                   id="app-5"
-                  className="portfolio-items portfolio-5"
+                  className="portfolio-items"
         >
             <h4>
                 Employee
@@ -94,13 +94,13 @@ function Portfolio() {
         </a>
         </Col>
         {/* App 6 */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="portfolio-6">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/KyleKilmartin371/password-challenge"
                   id="app-6"
-                  className="portfolio-items portfolio-6"
+                  className="portfolio-items"
         >
             <h4>
                 Password

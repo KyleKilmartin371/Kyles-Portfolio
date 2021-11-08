@@ -2,6 +2,7 @@
   --first-color: #474448;
   --second-color: #2d232e;
   --third-color: #e0ddcf;
+  --fourth-color: #FFDE00;
 }
 
 html,
@@ -75,12 +76,13 @@ a:hover {
 }
 
 .portfolio-list div{
-  padding: 25px;
-  border: 1px solid var(--second-color);
+  padding: 100px;
 }
 
 #portfolio a {
-    color: var(--first-color);
+    color: var(--fourth-color);
+    background-color: var(--third-color);
+    text-shadow: 0 0 10px rgba(0, 0, 2, 2);
     text-decoration: none;
     font-weight: bold;
 }
@@ -88,10 +90,55 @@ a:hover {
 .portfolio-1 {
   padding: 50px 100px;
   background-color: var(--third-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 2);
   background-image: url('../src/assets/pet-beauty.jpg');
   background-size: cover !important;
-  background-position: center !important;
+  background-position: top !important;
+}
+
+.portfolio-2 {
+  padding: 50px 100px;
+  background-color: var(--third-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url('../src/assets/walk-in-the-park.jpg');
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.portfolio-3 {
+  padding: 50px 100px;
+  background-color: var(--third-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url('../src/assets/calculator.jpg');
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.portfolio-4 {
+  padding: 50px 100px;
+  background-color: var(--third-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url('../src/assets/social-routes.jpg');
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.portfolio-5 {
+  padding: 50px 100px;
+  background-color: var(--third-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url('../src/assets/employee-tracker.jpeg');
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.portfolio-6 {
+  padding: 50px 100px;
+  background-color: var(--third-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url('../src/assets/Password-Generator.jpg');
+  background-size: cover !important;
+  background-position: top !important;
 }
 
 #contact {
