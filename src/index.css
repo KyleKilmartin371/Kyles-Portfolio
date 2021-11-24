@@ -91,7 +91,7 @@ a:hover {
   padding: 50px 100px;
   background-color: var(--third-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 2);
-  background-image: url('../src/assets/pet-beauty.jpg');
+  background-image: url('../src/assets/led.jpg');
   background-size: cover !important;
   background-position: top !important;
 }
@@ -99,8 +99,8 @@ a:hover {
 .portfolio-2 {
   padding: 50px 100px;
   background-color: var(--third-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-image: url('../src/assets/walk-in-the-park.jpg');
+  text-shadow: 0 0 10px rgba(0, 0, 0, 2);
+  background-image: url('../src/assets/pet-beauty.jpg');
   background-size: cover !important;
   background-position: top !important;
 }
@@ -109,7 +109,7 @@ a:hover {
   padding: 50px 100px;
   background-color: var(--third-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-image: url('../src/assets/calculator.jpg');
+  background-image: url('../src/assets/walk-in-the-park.jpg');
   background-size: cover !important;
   background-position: top !important;
 }
@@ -118,7 +118,7 @@ a:hover {
   padding: 50px 100px;
   background-color: var(--third-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-image: url('../src/assets/social-routes.jpg');
+  background-image: url('../src/assets/calculator.jpg');
   background-size: cover !important;
   background-position: top !important;
 }
@@ -127,12 +127,21 @@ a:hover {
   padding: 50px 100px;
   background-color: var(--third-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-image: url('../src/assets/employee-tracker.jpeg');
+  background-image: url('../src/assets/social-routes.jpg');
   background-size: cover !important;
   background-position: top !important;
 }
 
 .portfolio-6 {
+  padding: 50px 100px;
+  background-color: var(--third-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url('../src/assets/employee-tracker.jpeg');
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.portfolio-7 {
   padding: 50px 100px;
   background-color: var(--third-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

@@ -30,7 +30,21 @@ function Portfolio() {
 
       <Row className="portfolio-list">
           {/* App 2 */}
-        <Col xs={12} md={6}className="portfolio-2">
+          <Col xs={12} md={6}className="portfolio-2">
+        <a 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://gamebuy143.herokuapp.com/"
+                  id="app-2"
+                  className="portfolio-items"
+        >
+            <h4>
+                GameBuy
+            </h4>
+        </a>
+        </Col>
+          {/* App 3 */}
+        <Col xs={12} md={6}className="portfolio-3">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
@@ -45,8 +59,8 @@ function Portfolio() {
             </h4>
         </a>
         </Col>
-        {/* App 3 */}
-        <Col xs={12} md={6} className="portfolio-3">
+        {/* App 4 */}
+        <Col xs={12} md={6} className="portfolio-4">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
@@ -61,8 +75,8 @@ function Portfolio() {
             </h4>
         </a>
         </Col>
-        {/* App 4 */}
-        <Col xs={12} md={6} className="portfolio-4">
+        {/* App 5 */}
+        <Col xs={12} md={6} className="portfolio-5">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,8 +91,8 @@ function Portfolio() {
             </h4>
         </a>
         </Col>
-        {/* App 5 */}
-        <Col xs={12} md={6} className="portfolio-5">
+        {/* App 6 */}
+        <Col xs={12} md={6} className="portfolio-6">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
@@ -93,8 +107,8 @@ function Portfolio() {
             </h4>
         </a>
         </Col>
-        {/* App 6 */}
-        <Col xs={12} md={6} className="portfolio-6">
+        {/* App 7 */}
+        <Col xs={12} md={6} className="portfolio-7">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
