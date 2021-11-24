@@ -11,6 +11,23 @@ function Portfolio() {
       </Row>
        {/* App 1 */}
       <Row className="portfolio-list">
+      <Col xs={12} md={6}className="portfolio-2">
+        <a 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://gamebuy143.herokuapp.com/"
+                  id="app-2"
+                  className="portfolio-items"
+        >
+            <h4>
+                GameBuy
+            </h4>
+        </a>
+        </Col>
+      </Row>
+
+      <Row className="portfolio-list">
+          {/* App 2 */}
         <Col xs={12} md={12} className="portfolio-1">
         <a 
                   target="_blank"
@@ -23,23 +40,6 @@ function Portfolio() {
                 Pet Beauty
                 <br/>
                  Pagent
-            </h4>
-        </a>
-        </Col>
-      </Row>
-
-      <Row className="portfolio-list">
-          {/* App 2 */}
-          <Col xs={12} md={6}className="portfolio-2">
-        <a 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://gamebuy143.herokuapp.com/"
-                  id="app-2"
-                  className="portfolio-items"
-        >
-            <h4>
-                GameBuy
             </h4>
         </a>
         </Col>
