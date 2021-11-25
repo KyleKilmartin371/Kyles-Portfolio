@@ -15,7 +15,7 @@ function Portfolio() {
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://gamebuy143.herokuapp.com/"
+                  href="https://gamebuy-light.herokuapp.com/"
                   id="app-2"
                   className="portfolio-items"
         >
