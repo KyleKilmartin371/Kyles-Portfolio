@@ -15,7 +15,7 @@ function Footer(){
           className="linkedin"
           target="_blank"
           rel="noopener noreferrer"
-          href="www.linkedin.com/in/kyle-kilmartin"
+          href="https://linkedin.com/in/kyle-kilmartin"
         >
             LinkedIn
           </a>

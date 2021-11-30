@@ -1,55 +1,74 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { validateEmail } from "../../utils/helpers";
+// import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-    const [formState, setFormState] = useState({
-        name: "",
-        email: "",
-        message: "",
-      });
-      const { name, email, message } = formState;
-      const [errorMessage, setErrorMessage] = useState("");
-    
-      function handleChange(e) {
-        if (e.target.name === "email") {
-          const isValid = validateEmail(e.target.value);
-          console.log(isValid);
-          if (!isValid) {
-            setErrorMessage("Your email is invalid");
-          } else {
-            setErrorMessage("");
-          }
-        } else {
-          if (!e.target.value.length) {
-            setErrorMessage(`${e.target.name} is required.`);
-          } else {
-            setErrorMessage("");
-          }
-        }
-        if (!errorMessage) {
-          setFormState({ ...formState, [e.target.name]: e.target.value });
-        }
-      }
-    
-      function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
-      }
+  // const [formState, setFormState] = useState({
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //   });
+  //   const { name, email, message } = formState;
+  //   const [errorMessage, setErrorMessage] = useState("");
 
-    return(
-        <Container id="contact">
-            <Row>
-                <h2>Contact Me</h2>
-            </Row>
-            <Row>
-                <p>
-                    Please, If you have any questions, don't hesitate to contact me! ✉️ kylekilmartin371@gmail.com
-                </p>
-            </Row>
-            <Row>
-                <Col>
-                <h1 data-testid="h1tag">Contact me</h1>
+  //   function handleChange(e) {
+  //     if (e.target.name === "email") {
+  //       const isValid = validateEmail(e.target.value);
+  //       console.log(isValid);
+  //       if (!isValid) {
+  //         setErrorMessage("Your email is invalid");
+  //       } else {
+  //         setErrorMessage("");
+  //       }
+  //     } else {
+  //       if (!e.target.value.length) {
+  //         setErrorMessage(`${e.target.name} is required.`);
+  //       } else {
+  //         setErrorMessage("");
+  //       }
+  //     }
+  //     if (!errorMessage) {
+  //       setFormState({ ...formState, [e.target.name]: e.target.value });
+  //     }
+  //   }
+
+  //   function handleSubmit(e) {
+  //     e.preventDefault();
+  //     console.log(formState);
+  //   }
+
+  return (
+    <Container id="contact">
+      <Row>
+        <h2>Contact Me</h2>
+      </Row>
+
+      <Row>
+        <p>
+        For more information, download my resume *here*
+        </p>
+      </Row>
+
+
+      {/* Email form */}
+      <Row>
+        <p>
+          Please, If you have any questions, don't hesitate to contact me!
+          <br />
+          <a
+            className="email"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:kylekilmartin371@gmail.com"
+          >
+            ✉️ kylekilmartin371@gmail.com
+          </a>
+
+        </p>
+      </Row>
+      <Row>
+        <Col>
+          {/* <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -84,11 +103,11 @@ function Contact() {
             </div>
         )}
           <button data-testid="button" type="submit">Submit</button>
-      </form>
-                </Col>
-            </Row>
-        </Container>
-    );
-};
+      </form> */}
+        </Col>
+      </Row>
+    </Container>
+  );
+}
 
 export default Contact;
