@@ -12,9 +12,10 @@ function App() {
       {/* <div> */}
       <Nav />
       <Routes>
-        <Route exact path="/" element={<About />} />
+      <Route exact path="/" element={<About />} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path="/portfolio" element={<Portfolio />} />
-        <Route exact path="/Contact" element={<Contact />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
       {/* </div> */}
