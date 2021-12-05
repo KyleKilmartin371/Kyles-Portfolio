@@ -11,13 +11,13 @@ function Portfolio() {
       </Row>
        {/* App 1 */}
       <Row className="portfolio-list">
-      <Col xs={12} md={6}className="portfolio-2">
+      <Col xs={12} md={12}className="portfolio-1">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://gamebuy-light.herokuapp.com/"
+                  href="https://github.com/KyleKilmartin371/GameBuy-1/"
                   id="app-2"
-                  className="portfolio-items"
+                  className="portfolio-item"
         >
             <h4>
                 GameBuy
@@ -28,13 +28,13 @@ function Portfolio() {
 
       <Row className="portfolio-list">
           {/* App 2 */}
-        <Col xs={12} md={12} className="portfolio-1">
+        <Col xs={12} md={6} className="portfolio-2">
         <a 
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://morning-woodland-90591.herokuapp.com/"
                   id="app-1"
-                  className="portfolio-item"
+                  className="portfolio-items"
         >
             <h4>
                 Pet Beauty

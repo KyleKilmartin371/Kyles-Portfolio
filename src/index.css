@@ -92,7 +92,7 @@ a:hover {
   padding: 50px 100px;
   background-color: var(--third-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 2);
-  background-image: url('../src/assets/led.jpg');
+  background-image: url('../src/assets/GameBuy.jpg');
   background-size: cover !important;
   background-position: top !important;
 }
