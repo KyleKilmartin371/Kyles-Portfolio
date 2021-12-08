@@ -3,17 +3,22 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Contact() {
   return (
-    <Container id="contact">
+    <Container id="contact" className="contact">
       <Row>
-        <h2>Contact Me</h2>
+        <h1>Contact Me</h1>
       </Row>
 
       <Row>
         <p>
-        For more information, download my resume *here*
+          For more information, download my resume
+          <a
+            href="resume.pdf"
+            download="KyleKilmartinResume"
+          >
+            Here
+          </a>
         </p>
       </Row>
-
 
       {/* Email form */}
       <Row>
@@ -28,7 +33,6 @@ function Contact() {
           >
             ✉️ kylekilmartin371@gmail.com
           </a>
-
         </p>
       </Row>
     </Container>

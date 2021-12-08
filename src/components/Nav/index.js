@@ -6,7 +6,7 @@ function Nav() {
   return (
     <Container className="navbar">
       <Row className="navbar-row">
-        <Col xs={12} md={5}>
+        <Col xs={12} md={6}>
           <h1>
             <a href="/"> Kyle Kilmartin </a>
           </h1>

@@ -36,6 +36,8 @@ function About() {
             <li>MySQL database</li>
             <li>MongoDB</li>
             <li>React</li>
+            <li>Bcrypt</li>
+            <li>Apollo</li>
             <li>Jest testing</li>
             <li>Git / GitHub</li>
           </ul>

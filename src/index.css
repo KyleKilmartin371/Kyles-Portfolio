@@ -70,6 +70,7 @@ a:hover {
 .portfolio{
   padding: 50px;
   text-decoration: none;
+  background-color: var(--second-color);
 }
 
 .portfolio-list {
@@ -151,9 +152,11 @@ a:hover {
   background-position: top !important;
 }
 
-#contact {
+.contact {
   color: burlywood;
   background-color: var(--first-color);
+  padding: 200px 100px;
+  text-align: center;
 }
 
 .footer {
